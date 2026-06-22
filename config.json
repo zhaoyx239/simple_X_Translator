@@ -1,0 +1,23 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 7655
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "tts_sample_rate": 48000
+  },
+  "asr": {
+    "xasr_server_uri": "ws://127.0.0.1:8765"
+  },
+  "translation": {
+    "hunyuan_url": "http://localhost:8000/v1/chat/completions",
+    "model": "hunyuan_mt",
+    "max_tokens": 256,
+    "source_lang": "zh",
+    "target_lang": "en"
+  },
+  "tts": {
+    "xvoice_tts_url": "http://localhost:11998/synthesize"
+  }
+}
